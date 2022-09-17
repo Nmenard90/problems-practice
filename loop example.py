@@ -4,9 +4,8 @@
 
 
 def square():
-   i = 0
-   n = 20
-   for i in range(0,5):
-    if i < n:
-     print (i ** 2) 
+    n = int( input())
+    for i in range(0,n):
+        print(i * i)
+        i += 1
 square()
